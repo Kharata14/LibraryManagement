@@ -19,9 +19,9 @@ namespace LibraryManagement.Service.Tests
             var user = new User
             {
                 Id = new Guid(),
-                Name = "John Doe",
+                Name = "Gia JaJanidze",
                 PersonalNumber = "12345678901",
-                Email = "john.doe@example.com"
+                Email = "Gia.Jajanidze@gmail.com"
             };
 
             // Act
@@ -44,7 +44,7 @@ namespace LibraryManagement.Service.Tests
                 Id = Guid.NewGuid(),
                 Name = "",
                 PersonalNumber = "12345678901",
-                Email = "john.doe@example.com"
+                Email = "Gia.Jajanidze@gmail.com"
             };
 
             // Act & Assert
@@ -58,9 +58,9 @@ namespace LibraryManagement.Service.Tests
             var user = new User
             {
                 Id = Guid.NewGuid(),
-                Name = "John Doe",
+                Name = "Gia Jajanidze",
                 PersonalNumber = "12345678",
-                Email = "john.doe@example.com"
+                Email = "Gia.Jajanidze@gmail.com"
             };
 
             // Act & Assert
@@ -74,7 +74,7 @@ namespace LibraryManagement.Service.Tests
             var user = new User
             {
                 Id = Guid.NewGuid(),
-                Name = "John Doe",
+                Name = "Gia Jajanidze",
                 PersonalNumber = "12345678901",
                 Email = "invalid-email"
             };
@@ -90,9 +90,9 @@ namespace LibraryManagement.Service.Tests
             var user = new User
             {
                 Id = Guid.NewGuid(),
-                Name = "Jane Doe",
+                Name = "Gia Jajanidze",
                 PersonalNumber = "12345678902",
-                Email = "jane.doe@example.com"
+                Email = "Gia.Jajanidze@gmail.com"
             };
             await _userService.RegisterUser(user);
 
@@ -118,9 +118,9 @@ namespace LibraryManagement.Service.Tests
             var user = new User
             {
                 Id = Guid.NewGuid(),
-                Name = "Alice Smith",
+                Name = "Bomji Vaniko",
                 PersonalNumber = "12345678903",
-                Email = "alice.smith@example.com"
+                Email = "Bomji.Vaniko@gmail.com"
             };
             await _userService.RegisterUser(user);
 
